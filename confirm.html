@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>受注内容確認</title>
+    <link rel="stylesheet" href="./css/indexs.css" />
+    <link rel="stylesheet" href="./css/card.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="js/script.js" defer></script> <!-- JavaScriptファイルをリンク -->
+</head>
+
+<body>
+    <button class="container-1 forward-button" onclick="navigate_register()">配送依頼へ</button>
+    <button class="container-1 back-button" onclick="navigate_list()">戻る</button>
+    
+    <div class="container">
+        <div class="header">受注状況</div>
+
+        <div class="card-container">
+            <div class="header status">
+                <span>ステータス</span>
+                <span>受注確認待ち</span>
+            </div>
+            <table class="info-table">
+                <tr>
+                    <td>受注ID</td>
+                    <td>01</td>
+                </tr>
+                <tr>
+                    <td>納期</td>
+                    <td>2025/2/21(火)9時</td>
+                </tr>
+                <tr>
+                    <td>配送先</td>
+                    <td>名古屋市立みどり幼児園</td>
+                </tr>
+                <tr>
+                    <td>梱包数</td>
+                    <td>2個</td>
+                </tr>
+                <tr>
+                    <td>注文内容</td>
+                    <td>にんじん×2、だいこん×1</td>
+                </tr>
+                <tr>
+                    <td>注文金額</td>
+                    <td>¥350</td>
+                </tr>
+            </table>
+            <label>
+                <input class =text-align:center; type="checkbox" name="level" value="ok">
+                受注内容を確認した
+              </label>
+            <div class="button-container">
+
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="header status status-gray">
+                <span>ステータス</span>
+                <span>配送待ち</span>
+            </div>
+            <table class="info-table">
+                <tr>
+                    <td>受注ID</td>
+                    <td>00</td>
+                </tr>
+                <tr>
+                    <td>納期</td>
+                    <td>2025/2/22(火)9時</td>
+                </tr>
+                <tr>
+                    <td>受取場所</td>
+                    <td>名古屋市立みどり幼児園</td>
+                </tr>
+                <tr>
+                    <td>梱包数</td>
+                    <td>1個</td>
+                </tr>
+                <tr>
+                    <td>注文内容</td>
+                    <td>キャベツ×1、トマト×1</td>
+                </tr>
+                <tr>
+                    <td>注文金額</td>
+                    <td>¥350</td>
+                </tr>
+                
+            </table>
+            
+        </div>
+    </div>
+</body>
+
+</html>
